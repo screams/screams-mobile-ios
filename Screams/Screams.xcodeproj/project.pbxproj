@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3CEC597198785EF00E01297 /* scream-white-64.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC593198785EF00E01297 /* scream-white-64.png */; };
+		C3CEC598198785EF00E01297 /* scream-white-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC594198785EF00E01297 /* scream-white-128.png */; };
+		C3CEC599198785EF00E01297 /* scream-white-256.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC595198785EF00E01297 /* scream-white-256.png */; };
+		C3CEC59A198785EF00E01297 /* scream-white-512.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC596198785EF00E01297 /* scream-white-512.png */; };
+		C3F9DC59198777FD00ED7448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC58198777FD00ED7448 /* Foundation.framework */; };
+		C3F9DC5B198777FD00ED7448 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC5A198777FD00ED7448 /* CoreGraphics.framework */; };
+		C3F9DC5D198777FD00ED7448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC5C198777FD00ED7448 /* UIKit.framework */; };
+		C3F9DC63198777FE00ED7448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC61198777FE00ED7448 /* InfoPlist.strings */; };
+		C3F9DC65198777FE00ED7448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9DC64198777FE00ED7448 /* main.m */; };
+		C3F9DC69198777FE00ED7448 /* SCRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9DC68198777FE00ED7448 /* SCRAppDelegate.m */; };
+		C3F9DC6B198777FE00ED7448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC6A198777FE00ED7448 /* Images.xcassets */; };
+		C3F9DC72198777FE00ED7448 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC71198777FE00ED7448 /* XCTest.framework */; };
+		C3F9DC73198777FE00ED7448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC58198777FD00ED7448 /* Foundation.framework */; };
+		C3F9DC74198777FE00ED7448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC5C198777FD00ED7448 /* UIKit.framework */; };
+		C3F9DC7C198777FE00ED7448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC7A198777FE00ED7448 /* InfoPlist.strings */; };
+		C3F9DC7E198777FE00ED7448 /* ScreamsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9DC7D198777FE00ED7448 /* ScreamsTests.m */; };
+		C3F9DC97198778A300ED7448 /* SCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9DC95198778A300ED7448 /* SCRViewController.m */; };
+		C3F9DC98198778A300ED7448 /* SCRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC96198778A300ED7448 /* SCRViewController.xib */; };
+		C3F9DC9E19877AA800ED7448 /* scream-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC9A19877AA700ED7448 /* scream-128.png */; };
+		C3F9DC9F19877AA800ED7448 /* scream-256.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC9B19877AA800ED7448 /* scream-256.png */; };
+		C3F9DCA019877AA800ED7448 /* scream-48.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC9C19877AA800ED7448 /* scream-48.png */; };
+		C3F9DCA119877AA800ED7448 /* scream-64.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9DC9D19877AA800ED7448 /* scream-64.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3F9DC75198777FE00ED7448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3F9DC4D198777FD00ED7448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F9DC54198777FD00ED7448;
+			remoteInfo = Screams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3CEC593198785EF00E01297 /* scream-white-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-64.png"; sourceTree = "<group>"; };
+		C3CEC594198785EF00E01297 /* scream-white-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-128.png"; sourceTree = "<group>"; };
+		C3CEC595198785EF00E01297 /* scream-white-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-256.png"; sourceTree = "<group>"; };
+		C3CEC596198785EF00E01297 /* scream-white-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-512.png"; sourceTree = "<group>"; };
+		C3F9DC55198777FD00ED7448 /* Screams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F9DC58198777FD00ED7448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3F9DC5A198777FD00ED7448 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3F9DC5C198777FD00ED7448 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3F9DC60198777FE00ED7448 /* Screams-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Screams-Info.plist"; sourceTree = "<group>"; };
+		C3F9DC62198777FE00ED7448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3F9DC64198777FE00ED7448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3F9DC66198777FE00ED7448 /* Screams-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screams-Prefix.pch"; sourceTree = "<group>"; };
+		C3F9DC67198777FE00ED7448 /* SCRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRAppDelegate.h; sourceTree = "<group>"; };
+		C3F9DC68198777FE00ED7448 /* SCRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCRAppDelegate.m; sourceTree = "<group>"; };
+		C3F9DC6A198777FE00ED7448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3F9DC70198777FE00ED7448 /* ScreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F9DC71198777FE00ED7448 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3F9DC79198777FE00ED7448 /* ScreamsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreamsTests-Info.plist"; sourceTree = "<group>"; };
+		C3F9DC7B198777FE00ED7448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3F9DC7D198777FE00ED7448 /* ScreamsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreamsTests.m; sourceTree = "<group>"; };
+		C3F9DC94198778A300ED7448 /* SCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRViewController.h; sourceTree = "<group>"; };
+		C3F9DC95198778A300ED7448 /* SCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRViewController.m; sourceTree = "<group>"; };
+		C3F9DC96198778A300ED7448 /* SCRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRViewController.xib; sourceTree = "<group>"; };
+		C3F9DC9A19877AA700ED7448 /* scream-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-128.png"; sourceTree = "<group>"; };
+		C3F9DC9B19877AA800ED7448 /* scream-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-256.png"; sourceTree = "<group>"; };
+		C3F9DC9C19877AA800ED7448 /* scream-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-48.png"; sourceTree = "<group>"; };
+		C3F9DC9D19877AA800ED7448 /* scream-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-64.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3F9DC52198777FD00ED7448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9DC5B198777FD00ED7448 /* CoreGraphics.framework in Frameworks */,
+				C3F9DC5D198777FD00ED7448 /* UIKit.framework in Frameworks */,
+				C3F9DC59198777FD00ED7448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F9DC6D198777FE00ED7448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9DC72198777FE00ED7448 /* XCTest.framework in Frameworks */,
+				C3F9DC74198777FE00ED7448 /* UIKit.framework in Frameworks */,
+				C3F9DC73198777FE00ED7448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3F9DC4C198777FD00ED7448 = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC5E198777FD00ED7448 /* Screams */,
+				C3F9DC77198777FE00ED7448 /* ScreamsTests */,
+				C3F9DC57198777FD00ED7448 /* Frameworks */,
+				C3F9DC56198777FD00ED7448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3F9DC56198777FD00ED7448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC55198777FD00ED7448 /* Screams.app */,
+				C3F9DC70198777FE00ED7448 /* ScreamsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3F9DC57198777FD00ED7448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC58198777FD00ED7448 /* Foundation.framework */,
+				C3F9DC5A198777FD00ED7448 /* CoreGraphics.framework */,
+				C3F9DC5C198777FD00ED7448 /* UIKit.framework */,
+				C3F9DC71198777FE00ED7448 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F9DC5E198777FD00ED7448 /* Screams */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC9919877AA700ED7448 /* icons */,
+				C3F9DC93198778A300ED7448 /* ViewControllers */,
+				C3F9DC67198777FE00ED7448 /* SCRAppDelegate.h */,
+				C3F9DC68198777FE00ED7448 /* SCRAppDelegate.m */,
+				C3F9DC6A198777FE00ED7448 /* Images.xcassets */,
+				C3F9DC5F198777FE00ED7448 /* Supporting Files */,
+			);
+			path = Screams;
+			sourceTree = "<group>";
+		};
+		C3F9DC5F198777FE00ED7448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC60198777FE00ED7448 /* Screams-Info.plist */,
+				C3F9DC61198777FE00ED7448 /* InfoPlist.strings */,
+				C3F9DC64198777FE00ED7448 /* main.m */,
+				C3F9DC66198777FE00ED7448 /* Screams-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3F9DC77198777FE00ED7448 /* ScreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC7D198777FE00ED7448 /* ScreamsTests.m */,
+				C3F9DC78198777FE00ED7448 /* Supporting Files */,
+			);
+			path = ScreamsTests;
+			sourceTree = "<group>";
+		};
+		C3F9DC78198777FE00ED7448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC79198777FE00ED7448 /* ScreamsTests-Info.plist */,
+				C3F9DC7A198777FE00ED7448 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3F9DC93198778A300ED7448 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9DC94198778A300ED7448 /* SCRViewController.h */,
+				C3F9DC95198778A300ED7448 /* SCRViewController.m */,
+				C3F9DC96198778A300ED7448 /* SCRViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3F9DC9919877AA700ED7448 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				C3CEC593198785EF00E01297 /* scream-white-64.png */,
+				C3CEC594198785EF00E01297 /* scream-white-128.png */,
+				C3CEC595198785EF00E01297 /* scream-white-256.png */,
+				C3CEC596198785EF00E01297 /* scream-white-512.png */,
+				C3F9DC9A19877AA700ED7448 /* scream-128.png */,
+				C3F9DC9B19877AA800ED7448 /* scream-256.png */,
+				C3F9DC9C19877AA800ED7448 /* scream-48.png */,
+				C3F9DC9D19877AA800ED7448 /* scream-64.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3F9DC54198777FD00ED7448 /* Screams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F9DC81198777FE00ED7448 /* Build configuration list for PBXNativeTarget "Screams" */;
+			buildPhases = (
+				C3F9DC51198777FD00ED7448 /* Sources */,
+				C3F9DC52198777FD00ED7448 /* Frameworks */,
+				C3F9DC53198777FD00ED7448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Screams;
+			productName = Screams;
+			productReference = C3F9DC55198777FD00ED7448 /* Screams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3F9DC6F198777FE00ED7448 /* ScreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F9DC84198777FE00ED7448 /* Build configuration list for PBXNativeTarget "ScreamsTests" */;
+			buildPhases = (
+				C3F9DC6C198777FE00ED7448 /* Sources */,
+				C3F9DC6D198777FE00ED7448 /* Frameworks */,
+				C3F9DC6E198777FE00ED7448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3F9DC76198777FE00ED7448 /* PBXTargetDependency */,
+			);
+			name = ScreamsTests;
+			productName = ScreamsTests;
+			productReference = C3F9DC70198777FE00ED7448 /* ScreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3F9DC4D198777FD00ED7448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SCR;
+				TargetAttributes = {
+					C3F9DC6F198777FE00ED7448 = {
+						TestTargetID = C3F9DC54198777FD00ED7448;
+					};
+				};
+			};
+			buildConfigurationList = C3F9DC50198777FD00ED7448 /* Build configuration list for PBXProject "Screams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3F9DC4C198777FD00ED7448;
+			productRefGroup = C3F9DC56198777FD00ED7448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3F9DC54198777FD00ED7448 /* Screams */,
+				C3F9DC6F198777FE00ED7448 /* ScreamsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3F9DC53198777FD00ED7448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9DCA019877AA800ED7448 /* scream-48.png in Resources */,
+				C3F9DC9E19877AA800ED7448 /* scream-128.png in Resources */,
+				C3F9DC63198777FE00ED7448 /* InfoPlist.strings in Resources */,
+				C3F9DC98198778A300ED7448 /* SCRViewController.xib in Resources */,
+				C3CEC599198785EF00E01297 /* scream-white-256.png in Resources */,
+				C3CEC59A198785EF00E01297 /* scream-white-512.png in Resources */,
+				C3F9DC9F19877AA800ED7448 /* scream-256.png in Resources */,
+				C3CEC598198785EF00E01297 /* scream-white-128.png in Resources */,
+				C3F9DCA119877AA800ED7448 /* scream-64.png in Resources */,
+				C3CEC597198785EF00E01297 /* scream-white-64.png in Resources */,
+				C3F9DC6B198777FE00ED7448 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F9DC6E198777FE00ED7448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9DC7C198777FE00ED7448 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F9DC51198777FD00ED7448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9DC65198777FE00ED7448 /* main.m in Sources */,
+				C3F9DC97198778A300ED7448 /* SCRViewController.m in Sources */,
+				C3F9DC69198777FE00ED7448 /* SCRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F9DC6C198777FE00ED7448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9DC7E198777FE00ED7448 /* ScreamsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3F9DC76198777FE00ED7448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F9DC54198777FD00ED7448 /* Screams */;
+			targetProxy = C3F9DC75198777FE00ED7448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3F9DC61198777FE00ED7448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F9DC62198777FE00ED7448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3F9DC7A198777FE00ED7448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F9DC7B198777FE00ED7448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3F9DC7F198777FE00ED7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3F9DC80198777FE00ED7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F9DC82198777FE00ED7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screams/Screams-Prefix.pch";
+				INFOPLIST_FILE = "Screams/Screams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3F9DC83198777FE00ED7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screams/Screams-Prefix.pch";
+				INFOPLIST_FILE = "Screams/Screams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3F9DC85198777FE00ED7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Screams.app/Screams";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screams/Screams-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScreamsTests/ScreamsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3F9DC86198777FE00ED7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Screams.app/Screams";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screams/Screams-Prefix.pch";
+				INFOPLIST_FILE = "ScreamsTests/ScreamsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3F9DC50198777FD00ED7448 /* Build configuration list for PBXProject "Screams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F9DC7F198777FE00ED7448 /* Debug */,
+				C3F9DC80198777FE00ED7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F9DC81198777FE00ED7448 /* Build configuration list for PBXNativeTarget "Screams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F9DC82198777FE00ED7448 /* Debug */,
+				C3F9DC83198777FE00ED7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F9DC84198777FE00ED7448 /* Build configuration list for PBXNativeTarget "ScreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F9DC85198777FE00ED7448 /* Debug */,
+				C3F9DC86198777FE00ED7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3F9DC4D198777FD00ED7448 /* Project object */;
+}
