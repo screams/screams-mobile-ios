@@ -11,6 +11,11 @@
 		C3CEC598198785EF00E01297 /* scream-white-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC594198785EF00E01297 /* scream-white-128.png */; };
 		C3CEC599198785EF00E01297 /* scream-white-256.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC595198785EF00E01297 /* scream-white-256.png */; };
 		C3CEC59A198785EF00E01297 /* scream-white-512.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC596198785EF00E01297 /* scream-white-512.png */; };
+		C3CEC59F1989461B00E01297 /* SCRAvatarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CEC59D1989461B00E01297 /* SCRAvatarsViewController.m */; };
+		C3CEC5A01989461B00E01297 /* SCRAvatarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC59E1989461B00E01297 /* SCRAvatarsViewController.xib */; };
+		C3CEC5A6198946F700E01297 /* SCRAvatarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CEC5A5198946F700E01297 /* SCRAvatarViewCell.m */; };
+		C3CEC5A8198947EF00E01297 /* SCRAvatarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3CEC5A7198947EF00E01297 /* SCRAvatarViewCell.xib */; };
+		C3CEC5B4198CEA4F00E01297 /* SCRGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CEC5B3198CEA4F00E01297 /* SCRGlobals.m */; };
 		C3F9DC59198777FD00ED7448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC58198777FD00ED7448 /* Foundation.framework */; };
 		C3F9DC5B198777FD00ED7448 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC5A198777FD00ED7448 /* CoreGraphics.framework */; };
 		C3F9DC5D198777FD00ED7448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F9DC5C198777FD00ED7448 /* UIKit.framework */; };
@@ -46,6 +51,15 @@
 		C3CEC594198785EF00E01297 /* scream-white-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-128.png"; sourceTree = "<group>"; };
 		C3CEC595198785EF00E01297 /* scream-white-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-256.png"; sourceTree = "<group>"; };
 		C3CEC596198785EF00E01297 /* scream-white-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream-white-512.png"; sourceTree = "<group>"; };
+		C3CEC59C1989461B00E01297 /* SCRAvatarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRAvatarsViewController.h; sourceTree = "<group>"; };
+		C3CEC59D1989461B00E01297 /* SCRAvatarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRAvatarsViewController.m; sourceTree = "<group>"; };
+		C3CEC59E1989461B00E01297 /* SCRAvatarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRAvatarsViewController.xib; sourceTree = "<group>"; };
+		C3CEC5A4198946F700E01297 /* SCRAvatarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRAvatarViewCell.h; sourceTree = "<group>"; };
+		C3CEC5A5198946F700E01297 /* SCRAvatarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRAvatarViewCell.m; sourceTree = "<group>"; };
+		C3CEC5A7198947EF00E01297 /* SCRAvatarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRAvatarViewCell.xib; sourceTree = "<group>"; };
+		C3CEC5AF198CEA2800E01297 /* SCRMacroDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRMacroDefinitions.h; sourceTree = "<group>"; };
+		C3CEC5B2198CEA4F00E01297 /* SCRGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRGlobals.h; sourceTree = "<group>"; };
+		C3CEC5B3198CEA4F00E01297 /* SCRGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRGlobals.m; sourceTree = "<group>"; };
 		C3F9DC55198777FD00ED7448 /* Screams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F9DC58198777FD00ED7448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3F9DC5A198777FD00ED7448 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +109,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3CEC59B1989457C00E01297 /* AvatarsControl */ = {
+			isa = PBXGroup;
+			children = (
+				C3CEC59C1989461B00E01297 /* SCRAvatarsViewController.h */,
+				C3CEC59D1989461B00E01297 /* SCRAvatarsViewController.m */,
+				C3CEC59E1989461B00E01297 /* SCRAvatarsViewController.xib */,
+				C3CEC5A4198946F700E01297 /* SCRAvatarViewCell.h */,
+				C3CEC5A5198946F700E01297 /* SCRAvatarViewCell.m */,
+				C3CEC5A7198947EF00E01297 /* SCRAvatarViewCell.xib */,
+			);
+			path = AvatarsControl;
+			sourceTree = "<group>";
+		};
+		C3CEC5AE198CEA2800E01297 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				C3CEC5AF198CEA2800E01297 /* SCRMacroDefinitions.h */,
+				C3CEC5B2198CEA4F00E01297 /* SCRGlobals.h */,
+				C3CEC5B3198CEA4F00E01297 /* SCRGlobals.m */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
 		C3F9DC4C198777FD00ED7448 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +165,8 @@
 		C3F9DC5E198777FD00ED7448 /* Screams */ = {
 			isa = PBXGroup;
 			children = (
+				C3CEC5AE198CEA2800E01297 /* Globals */,
+				C3CEC59B1989457C00E01297 /* AvatarsControl */,
 				C3F9DC9919877AA700ED7448 /* icons */,
 				C3F9DC93198778A300ED7448 /* ViewControllers */,
 				C3F9DC67198777FE00ED7448 /* SCRAppDelegate.h */,
@@ -270,10 +309,12 @@
 			files = (
 				C3F9DCA019877AA800ED7448 /* scream-48.png in Resources */,
 				C3F9DC9E19877AA800ED7448 /* scream-128.png in Resources */,
+				C3CEC5A01989461B00E01297 /* SCRAvatarsViewController.xib in Resources */,
 				C3F9DC63198777FE00ED7448 /* InfoPlist.strings in Resources */,
 				C3F9DC98198778A300ED7448 /* SCRViewController.xib in Resources */,
 				C3CEC599198785EF00E01297 /* scream-white-256.png in Resources */,
 				C3CEC59A198785EF00E01297 /* scream-white-512.png in Resources */,
+				C3CEC5A8198947EF00E01297 /* SCRAvatarViewCell.xib in Resources */,
 				C3F9DC9F19877AA800ED7448 /* scream-256.png in Resources */,
 				C3CEC598198785EF00E01297 /* scream-white-128.png in Resources */,
 				C3F9DCA119877AA800ED7448 /* scream-64.png in Resources */,
@@ -297,8 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CEC5A6198946F700E01297 /* SCRAvatarViewCell.m in Sources */,
 				C3F9DC65198777FE00ED7448 /* main.m in Sources */,
+				C3CEC5B4198CEA4F00E01297 /* SCRGlobals.m in Sources */,
 				C3F9DC97198778A300ED7448 /* SCRViewController.m in Sources */,
+				C3CEC59F1989461B00E01297 /* SCRAvatarsViewController.m in Sources */,
 				C3F9DC69198777FE00ED7448 /* SCRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
